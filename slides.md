@@ -121,6 +121,18 @@ h1 {
 
 虚拟滚动（也叫虚拟列表），尽管在表现形式上与懒加载相似，<br>但列表中展示的 `dom`元素数量实际是固定的。
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 layout: default
 ---
@@ -153,6 +165,15 @@ layout: default
   width: 50%;
   right: 0;
   top: 80px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 
@@ -197,6 +218,15 @@ layout: default
   right: 2.5%;
   top: 120px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 
 ---
@@ -207,7 +237,7 @@ layout: default
 
 # Vue原生实现
 
-```vue {all|6|8-9|10-16|all}
+```vue  { all|6|8-9|10-16|all }
 <script>
 mounted() {
     const obj = this.$refs.container;
@@ -245,6 +275,15 @@ mounted() {
   right: 2.5%;
   top: 120px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 ---
 layout: default
@@ -254,7 +293,7 @@ layout: default
 
 # [vue-infinite-scroll](https://element.eleme.cn/#/zh-CN/component/infiniteScroll) 实现
 
-```vue {all|4-6|all}
+```vue {all|4-6}
 <template>
   <div
     class="container"
@@ -291,6 +330,15 @@ layout: default
   right: 2.5%;
   top: 120px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 ---
 layout: default
@@ -300,7 +348,7 @@ layout: default
 
 # El-Table 实现
 
-```vue
+```vue {all|7}
 <template>
   <div>
     <el-table
@@ -329,6 +377,15 @@ layout: default
   right: 2.5%;
   top: 120px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 ---
 layout: default
@@ -354,7 +411,7 @@ const eltableLoad = {
 ```
 </div>
 
-<arrow v-click="1" x1="400" y1="260" x2="230" y2="170" color="#564" width="3" arrowSize="1" />
+<arrow v-click="1" x1="400" y1="260" x2="230" y2="170" color="#146b8c" width="3" arrowSize="1" />
 
 <img class="fixed-right" src="https://raw.githubusercontent.com/ivestszheng/images-store/master/img/el-table%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4.gif">
 
@@ -368,6 +425,15 @@ const eltableLoad = {
   width: 45%;
   right: 2.5%;
   top: 120px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -401,6 +467,15 @@ layout: default
   width: 45%;
   right: 2.5%;
   top: 120px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -448,6 +523,15 @@ layout: default
   right: 2.5%;
   top: 120px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 ---
 layout: default
@@ -488,6 +572,15 @@ layout: default
   width: 45%;
   right: 2.5%;
   top: 120px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -535,49 +628,14 @@ layout: default
   right: 2.5%;
   top: 120px;
 }
-</style>
----
-layout: default
----
-
-<div class="my-layout">
-
-# 监听滚动事件动态截取数据
-
-```vue
-<script>
-  mounted() {
-    this.getMaxVolume();
-  },
-  methods: {
-    // 计算容器的最大容积
-    getMaxVolume() {
-      const { clientHeight } = this.$refs.container
-      this.maxVolume = 
-      Math.floor(clientHeight / this.itemHeight) + 2;
-    },
-    // 滚动行为事件,记录滚动的第一个元素索引
-    handleScroll() {
-      const { scrollTop } = this.$refs.container
-      this.beginIndex = Math.floor(scrollTop / this.itemHeight);
-    },
-  },
-</script>
-```
-</div>
-
-<img class="fixed-right" src="https://raw.githubusercontent.com/ivestszheng/images-store/master/img/image-20220605220258304.png">
-
-<style>
-.my-layout {
-  width: 50%;
-  float: left;
-}
-.fixed-right{
-  position: absolute;
-  width: 45%;
-  right: 2.5%;
-  top: 120px;
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -622,6 +680,68 @@ layout: default
   width: 45%;
   right: 2.5%;
   top: 120px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
+layout: default
+---
+
+<div class="my-layout">
+
+# 监听滚动事件动态截取数据
+
+```vue
+<script>
+  mounted() {
+    this.getMaxVolume();
+  },
+  methods: {
+    // 计算容器的最大容积
+    getMaxVolume() {
+      const { clientHeight } = this.$refs.container
+      this.maxVolume = 
+      Math.floor(clientHeight / this.itemHeight) + 2;
+    },
+    // 滚动行为事件,记录滚动的第一个元素索引
+    handleScroll() {
+      const { scrollTop } = this.$refs.container
+      this.beginIndex = Math.floor(scrollTop / this.itemHeight);
+    },
+  },
+</script>
+```
+</div>
+
+<img class="fixed-right" src="https://raw.githubusercontent.com/ivestszheng/images-store/master/img/image-20220605220258304.png">
+
+<style>
+.my-layout {
+  width: 50%;
+  float: left;
+}
+.fixed-right{
+  position: absolute;
+  width: 45%;
+  right: 2.5%;
+  top: 120px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -664,6 +784,15 @@ layout: default
   width: 45%;
   right: 2.5%;
   top: 160px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -708,6 +837,15 @@ layout: default
   width: 45%;
   right: 2.5%;
   top: 160px;
+}
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
 ---
@@ -759,6 +897,15 @@ layout: default
   right: 2.5%;
   top: 160px;
 }
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 </style>
 ---
 ---
@@ -788,6 +935,19 @@ layout: default
       };
     },
 ```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 ---
 
@@ -818,6 +978,18 @@ methods:{
     },
 }
 ```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 ---
 
 # 总结
@@ -840,3 +1012,15 @@ methods:{
 <br>
 
 [了解更多](https://ivestszheng.github.io/blog/frontend/vue-infi-scroll-upper.html#%E6%97%A0%E9%99%90%E4%B8%8B%E6%8B%89%E4%B9%8B%E8%99%9A%E6%8B%9F%E6%BB%9A%E5%8A%A8%E7%9A%84%E5%AE%9E%E7%8E%B0)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
